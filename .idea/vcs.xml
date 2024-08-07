@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Admin-v3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker/php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker/php/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/docker/php/api/public-app" vcs="Git" />
+  </component>
+</project>
