@@ -19,8 +19,9 @@ RUN adduser --disabled-password --gecos '' developer
 
 # Add user to the group
 RUN chown -R developer:www-data /var/www
-RUN chown developer /var/www
-RUN chmod 755 /var/www
+CMD [ "chown", "-R developer:developer /var/www/klimsystems" ]
+RUN chown -R developer:developer /var/www/klimsystems
+RUN chmod 755 /var/www/klimsystems
 
 # Switch to this user
 USER developer
